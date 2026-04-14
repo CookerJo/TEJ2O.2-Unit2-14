@@ -13,7 +13,7 @@ let loopCounterX = 0
 let loopCounterY = 0
 let sprite: game.LedSprite = null
 
-// button a
+// button a to make it start moving to the right 
 input.onButtonPressed(Button.A, function () {
     // setup
     basic.clearScreen()
@@ -47,7 +47,7 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Happy)
 })
 
-// button b
+// button b to make in move 90 decrees to the left
 input.onButtonPressed(Button.B, function () {
     // setup
     basic.clearScreen()
